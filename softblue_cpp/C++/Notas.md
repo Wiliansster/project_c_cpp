@@ -187,3 +187,23 @@ delete usuario;
 
 // Ou também: delete(usuario);
 ```
+
+## Operador this
+* Diferencia um atributo do objeto de um atributo do método
+* Fornece a referência do próprio objeto para outro método
+* Funciona somente dentro do próprio objeto
+
+```cpp
+void Usuario::meuMetodo(int var)
+{
+    cout<< var<< endl;
+    cout << this-> <<endl;
+}
+```
+
+```cpp
+ Usuario *usuario = new Usuario();
+ usuario -> var = 10;
+ usuario -> meuMetodo(20);
+//imprime 20 depois 10
+```
