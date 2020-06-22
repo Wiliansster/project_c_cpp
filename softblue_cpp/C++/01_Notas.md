@@ -1,4 +1,4 @@
-# Classes
+# Classes e Objetos
 
 * Estrutura de dados
 * Representa um tipo de dado
@@ -74,12 +74,12 @@ void Usuario::apresentar(){
     cout << "Meu nome é " << this -> nome;
 }
 ```
-## Objeto
+# Objeto
 * classe  não é um objeto
 * classe é um modelo de objeto (template) Ex: construção civil, o projeto é uma classe e a obra pronta um objeto.
 * Objetos são instância de classes
 
-### Criando objetos
+## Criando objetos
 * operador **new**
 ```cpp
     Usuario * usuario1 = new Usuario();
